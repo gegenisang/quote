@@ -1,0 +1,85 @@
+body,
+div,
+p,
+h4 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background: #333;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#container {
+    position: relative;
+    margin: 10% 30% 0% 30%;
+    padding: 3%;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#quote_text i {
+    margin-right: 1%;
+    font-weight: bold;
+}
+
+#quote_text {
+    font-size: 1.5em;
+}
+
+#author {
+    padding-top: 3%;
+    text-align: right;
+    font-size: 1em;
+}
+
+#buttons {
+    padding-top: 4%;
+    clear: both;
+    padding-bottom: 5%;
+}
+
+#buttons .twitter-share-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1%;
+    float: left;
+    border-radius: 3px;
+    background: #333;
+    color: #fff;
+}
+
+.twitter-share-button:hover {
+    opacity: 0.8;
+}
+
+#buttons button {
+    float: right;
+    display: inline-block;
+    padding: 2%;
+    border-radius: 3px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer {
+    /*   top: 60%;
+  left: 48%; */
+    color: #fff;
+    font-size: 1em;
+}
